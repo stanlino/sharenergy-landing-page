@@ -197,6 +197,10 @@ export default function Home() {
           </div>
         </div>
       </Feedbacks>
+      <Separator>
+        <h2>Pronto para começar a economizar?</h2>
+        <Button>Receba um orçamento</Button>
+      </Separator>
     </Main>
   );
 }

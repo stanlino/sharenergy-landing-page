@@ -80,18 +80,17 @@ export const About = styled.div`
 
 export const Separator = styled.div`
   background-color: #161c2d;
-  height: 6rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  color: white;
-  gap: 0.25rem;
-  font-size: 20px;
-  padding: 0 16px;
+  padding: 2.5rem 16px;
 
-  h3 {
+  gap: 1rem;
+
+  h3,
+  h2 {
     color: white;
     font-weight: 500;
     font-size: 18px;
@@ -101,6 +100,11 @@ export const Separator = styled.div`
       margin-left: 5px;
       color: white;
     }
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
   }
 `;
 
@@ -344,6 +348,7 @@ export const ShowCase = styled.section`
     h2 {
       color: white;
       font-size: 38px;
+      text-align: center;
     }
 
     p {
@@ -382,6 +387,7 @@ export const Feedbacks = styled.section`
 
   h2 {
     font-size: 38px;
+    text-align: center;
   }
 
   p {

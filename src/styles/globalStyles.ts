@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
 
   :root {
     --accent-color: #00A2A2;
-    --accent-color-darken: ${darken(0.1, "#00A2A2")}
+    --accent-color-darken: ${darken(0.1, "#00A2A2")};
     --heading-color: #161C2D;
     --text-color: #6E727D;
   }
@@ -18,7 +18,10 @@ export const GlobalStyles = createGlobalStyle`
   body, #__next {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
 
     flex: 1;
+
+    font-family: inter, sans-serif;
   }
 `;

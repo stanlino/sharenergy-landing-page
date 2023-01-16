@@ -19,7 +19,11 @@ export function NavBar() {
         <Image src="/logo.png" alt="Logo da Sharenergy" fill />
       </div>
       <Nav visible={sidebarVisible}>
-        <button className="close-button" onClick={toggleSidebarVisible}>
+        <button
+          aria-label="fechar sidebar"
+          className="close-button"
+          onClick={toggleSidebarVisible}
+        >
           <SlClose />
         </button>
         <ul>
@@ -45,7 +49,11 @@ export function NavBar() {
           </li>
         </ul>
       </Nav>
-      <button className="menu-button" onClick={toggleSidebarVisible}>
+      <button
+        aria-label="abrir sidebar"
+        className="menu-button"
+        onClick={toggleSidebarVisible}
+      >
         <CgMenuRight />
       </button>
     </Container>

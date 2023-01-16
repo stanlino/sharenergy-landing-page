@@ -39,6 +39,8 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
             rel="stylesheet"
           />
+          <meta name="description" content="Share energy landing page"></meta>
+          <title>Sharenergy - Energia Solar</title>
         </Head>
         <body>
           <Main />

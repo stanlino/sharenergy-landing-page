@@ -1,4 +1,5 @@
 import { Button } from "@/components/button";
+import Image from "next/image";
 import Link from "next/link";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { FaPlay } from "react-icons/fa";
@@ -31,9 +32,11 @@ export default function Home() {
           <Button>Quero um orçamento</Button>
         </About>
         <Hero>
-          <img
+          <Image
             src="/paineis.jpg"
             alt="Paineis solares espalhados enfileirados em um campo"
+            width={803}
+            height={536}
           />
         </Hero>
       </header>
@@ -53,9 +56,11 @@ export default function Home() {
           <Button>Veja como funciona</Button>
         </div>
         <div>
-          <img
+          <Image
             src="/instalacao.jpg"
             alt="Funcionário instalando painel solar"
+            width={707}
+            height={607}
           />
         </div>
         <div>
@@ -77,28 +82,28 @@ export default function Home() {
           </p>
           <Services>
             <Link href={"#"}>
-              <img src="/enterprise.jpg" alt="" />
+              <Image width={480} height={360} src="/enterprise.jpg" alt="" />
               <div className="service">
                 <span>Empresas</span>
                 <BiRightArrowAlt />
               </div>
             </Link>
             <Link href={"#"}>
-              <img src="/residential.jpg" alt="" />
+              <Image width={480} height={360} src="/residential.jpg" alt="" />
               <div className="service">
                 <span>Residencial</span>
                 <BiRightArrowAlt />
               </div>
             </Link>
             <Link href={"#"}>
-              <img src="/farm.jpg" alt="" />
+              <Image width={480} height={360} src="/farm.jpg" alt="" />
               <div className="service">
                 <span>Agronegócio</span>
                 <BiRightArrowAlt />
               </div>
             </Link>
             <Link href={"#"}>
-              <img src="/industry.jpg" alt="" />
+              <Image width={480} height={360} src="/industry.jpg" alt="" />
               <div className="service">
                 <span>Indústria</span>
                 <BiRightArrowAlt />
@@ -109,8 +114,14 @@ export default function Home() {
       </UseCases>
       <Competences>
         <div className="img">
-          <img id="back-svg" src="/back-felipe.svg" alt="" />
-          <img src="/Felipe.png" alt="Felipe" />
+          <Image
+            width={600}
+            height={600}
+            id="back-svg"
+            src="/back-felipe.svg"
+            alt="Plano de fundo"
+          />
+          <Image width={356} height={457} src="/Felipe.png" alt="Felipe" />
         </div>
         <div className="aside">
           <h2>
@@ -143,7 +154,7 @@ export default function Home() {
       </Competences>
       <ShowCase>
         <div className="overlay">
-          <button>
+          <button aria-label="Play">
             <FaPlay />
           </button>
           <h2>Veja um de nossos cases</h2>
@@ -162,7 +173,7 @@ export default function Home() {
         </p>
         <div className="feedbacks">
           <div className="feedback">
-            <img src="/jose.png" alt="José Maurício" />
+            <Image width={50} height={50} src="/jose.png" alt="José Maurício" />
             <p>
               “Estou bem satisfeito com o serviço, tem sempre um técnico a
               disposição quando necessário. A empresa oferece atendimento e
@@ -173,7 +184,12 @@ export default function Home() {
             </span>
           </div>
           <div className="feedback">
-            <img src="/george.jpg" alt="George Jamil" />
+            <Image
+              width={50}
+              height={50}
+              src="/george.jpg"
+              alt="George Jamil"
+            />
             <p>
               “Achei a proposta muito interessante! Energia de fonte limpa e
               acho que o potencial é muito grande, pois, disponibiliza a energia
@@ -185,7 +201,12 @@ export default function Home() {
             </span>
           </div>
           <div className="feedback">
-            <img src="julio.png" alt="Júlio Antônio" />
+            <Image
+              width={50}
+              height={50}
+              src="/julio.png"
+              alt="Júlio Antônio"
+            />
             <p>
               “Como cliente me sinto muito satisfeito por ter a Sharenergy pois
               seus sócios, além da capacidade técnica, tratam seus clientes com

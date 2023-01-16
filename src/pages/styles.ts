@@ -33,6 +33,7 @@ export const Hero = styled.div`
     object-fit: cover;
     width: 90%;
     border-radius: 16px;
+    height: auto;
   }
 `;
 
@@ -161,6 +162,7 @@ export const Report = styled.section`
   div img {
     width: 100%;
     border-radius: 8px;
+    max-height: 300px;
   }
 `;
 
@@ -221,6 +223,7 @@ export const Services = styled.div`
 
     img {
       flex: 1;
+      width: 100%;
       object-fit: cover;
       overflow: hidden;
     }
@@ -273,6 +276,10 @@ export const Competences = styled.section`
       position: absolute;
       z-index: -1;
     }
+
+    img {
+      height: 100%;
+    }
   }
 
   .aside {
@@ -311,12 +318,6 @@ export const Competences = styled.section`
   @media (max-width: 720px) {
     flex-direction: column;
     padding: 0 3rem;
-
-    .img {
-      img + img {
-        width: 50%;
-      }
-    }
 
     .aside {
       padding-right: 0;

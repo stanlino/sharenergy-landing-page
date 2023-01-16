@@ -22,6 +22,6 @@ export const GlobalStyles = createGlobalStyle`
 
     flex: 1;
 
-    font-family: inter, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 `;

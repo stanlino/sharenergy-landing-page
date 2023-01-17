@@ -26,16 +26,16 @@ export function Footer() {
           </a>
         </div>
         <div className="social">
-          <a href="#">
+          <a href="/">
             <AiFillFacebook />
           </a>
-          <a href="#">
+          <a href="/">
             <AiFillTwitterSquare />
           </a>
-          <a href="#">
+          <a href="/">
             <AiFillInstagram />
           </a>
-          <a href="#">
+          <a href="/">
             <AiFillLinkedin />
           </a>
         </div>
@@ -44,16 +44,16 @@ export function Footer() {
         <span className="title">Páginas</span>
         <ul>
           <li>
-            <a href="#">Sobre nós</a>
+            <a href="/">Sobre nós</a>
           </li>
           <li>
-            <a href="#">Contato</a>
+            <a href="/">Contato</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="/">Blog</a>
           </li>
           <li>
-            <a href="#">Serviços</a>
+            <a href="/">Serviços</a>
           </li>
         </ul>
       </div>
@@ -61,16 +61,16 @@ export function Footer() {
         <span className="title">Energia Solar</span>
         <ul>
           <li>
-            <a href="#">Residencial</a>
+            <a href="/">Residencial</a>
           </li>
           <li>
-            <a href="#">Empresas</a>
+            <a href="/">Empresas</a>
           </li>
           <li>
-            <a href="#">Agronegócio</a>
+            <a href="/">Agronegócio</a>
           </li>
           <li>
-            <a href="#">Indústrias</a>
+            <a href="/">Indústrias</a>
           </li>
         </ul>
       </div>
@@ -78,16 +78,16 @@ export function Footer() {
         <span className="title">Cases</span>
         <ul>
           <li>
-            <a href="#">Frigorífico Companhia de Carne</a>
+            <a href="/">Frigorífico Companhia de Carne</a>
           </li>
           <li>
-            <a href="#">Prima Línea</a>
+            <a href="/">Prima Línea</a>
           </li>
           <li>
-            <a href="#">Fortline Calçados</a>
+            <a href="/">Fortline Calçados</a>
           </li>
           <li>
-            <a href="#">Residencial</a>
+            <a href="/">Residencial</a>
           </li>
         </ul>
       </div>
@@ -95,10 +95,10 @@ export function Footer() {
         <span className="title">Legal</span>
         <ul>
           <li>
-            <a href="#">Política de Privacidade</a>
+            <a href="/">Política de Privacidade</a>
           </li>
           <li>
-            <a href="#">Termos e Condições</a>
+            <a href="/">Termos e Condições</a>
           </li>
         </ul>
       </div>

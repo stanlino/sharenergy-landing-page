@@ -41,10 +41,10 @@ export default function Home() {
         </Hero>
       </header>
       <Separator>
-        <h3>
+        <h2>
           Interessado em conhecer como funciona a energia solar fotovoltaica?
-          <a href="#">Veja o vídeo</a>
-        </h3>
+          <a href={"/"}>Veja o vídeo</a>
+        </h2>
       </Separator>
       <Report>
         <div>
@@ -59,8 +59,8 @@ export default function Home() {
           <Image
             src="/instalacao.jpg"
             alt="Funcionário instalando painel solar"
-            width={707}
-            height={607}
+            width={607}
+            height={707}
           />
         </div>
         <div>
@@ -81,28 +81,28 @@ export default function Home() {
             estas tecnologias.
           </p>
           <Services>
-            <Link href={"#"}>
+            <Link href={"/"}>
               <Image width={480} height={360} src="/enterprise.jpg" alt="" />
               <div className="service">
                 <span>Empresas</span>
                 <BiRightArrowAlt />
               </div>
             </Link>
-            <Link href={"#"}>
+            <Link href={"/"}>
               <Image width={480} height={360} src="/residential.jpg" alt="" />
               <div className="service">
                 <span>Residencial</span>
                 <BiRightArrowAlt />
               </div>
             </Link>
-            <Link href={"#"}>
+            <Link href={"/"}>
               <Image width={480} height={360} src="/farm.jpg" alt="" />
               <div className="service">
                 <span>Agronegócio</span>
                 <BiRightArrowAlt />
               </div>
             </Link>
-            <Link href={"#"}>
+            <Link href={"/"}>
               <Image width={480} height={360} src="/industry.jpg" alt="" />
               <div className="service">
                 <span>Indústria</span>
@@ -173,7 +173,7 @@ export default function Home() {
         </p>
         <div className="feedbacks">
           <div className="feedback">
-            <Image width={50} height={50} src="/jose.png" alt="José Maurício" />
+            <Image width={64} height={69} src="/jose.png" alt="José Maurício" />
             <p>
               “Estou bem satisfeito com o serviço, tem sempre um técnico a
               disposição quando necessário. A empresa oferece atendimento e
@@ -219,7 +219,7 @@ export default function Home() {
         </div>
       </Feedbacks>
       <Separator>
-        <h2>Pronto para começar a economizar?</h2>
+        <h3>Pronto para começar a economizar?</h3>
         <Button>Receba um orçamento</Button>
       </Separator>
     </Main>

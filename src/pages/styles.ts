@@ -90,7 +90,6 @@ export const Separator = styled.div`
 
   gap: 1rem;
 
-  h3,
   h2 {
     color: white;
     font-weight: 500;
@@ -103,9 +102,10 @@ export const Separator = styled.div`
     }
   }
 
-  h2 {
+  h3 {
     font-size: 24px;
     font-weight: bold;
+    color: white;
   }
 `;
 

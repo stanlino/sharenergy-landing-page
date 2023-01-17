@@ -279,6 +279,7 @@ export const Competences = styled.section`
 
     img {
       height: 100%;
+      max-width: 100%;
     }
   }
 

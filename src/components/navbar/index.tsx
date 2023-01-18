@@ -15,9 +15,14 @@ export function NavBar() {
 
   return (
     <Container>
-      <div className="image">
-        <Image src="/logo.png" alt="Logo da Sharenergy" fill />
-      </div>
+      <Link href={"/"}>
+        <Image
+          src={"/logo.png"}
+          alt={"Logo da Share Energy"}
+          width={300}
+          height={32}
+        />
+      </Link>
       <Nav visible={sidebarVisible}>
         <button
           aria-label="fechar sidebar"
@@ -28,22 +33,22 @@ export function NavBar() {
         </button>
         <ul>
           <li>
-            <Link href="/sobre-nos">Sobre nós</Link>
+            <Link href="/">Sobre nós</Link>
           </li>
           <li>
-            <Link href="/servicos">Serviços</Link>
+            <Link href="/">Serviços</Link>
           </li>
           <li>
-            <Link href="/blog">Blog</Link>
+            <Link href="/">Blog</Link>
           </li>
           <li>
-            <Link href="/contato">Contato</Link>
+            <Link href="/">Contato</Link>
           </li>
           <li>
-            <Link href="/carreiras">Carreiras</Link>
+            <Link href="/">Carreiras</Link>
           </li>
           <li>
-            <Link href="/orcamento">
+            <Link href="/">
               <Button>Orçamento</Button>
             </Link>
           </li>

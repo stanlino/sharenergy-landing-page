@@ -106,6 +106,7 @@ export const Separator = styled.div`
     font-size: 24px;
     font-weight: bold;
     color: white;
+    text-align: center;
   }
 `;
 
@@ -277,9 +278,11 @@ export const Competences = styled.section`
       z-index: -1;
     }
 
-    img {
-      height: 100%;
-      max-width: 100%;
+    @media (max-width: 720px) {
+      img {
+        height: 100%;
+        max-width: 100%;
+      }
     }
   }
 
@@ -425,7 +428,7 @@ export const Feedbacks = styled.section`
 
     img {
       width: 50px;
-      aspect-ratio: 1;
+      height: 50px;
       border-radius: 25px;
     }
 

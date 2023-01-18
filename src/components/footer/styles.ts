@@ -37,6 +37,10 @@ export const Container = styled.footer`
         text-decoration: none;
         color: var(--text-color);
         font-size: 20px;
+
+        &:hover {
+          color: var(--accent-color);
+        }
       }
     }
 
@@ -52,17 +56,15 @@ export const Container = styled.footer`
       text-decoration: none;
       color: var(--heading-text);
       line-height: 2rem;
+
+      &:hover {
+        color: var(--accent-color);
+      }
     }
   }
 
   @media (max-width: 720px) {
     flex-direction: column;
     padding: 0 32px;
-  }
-
-  a {
-    :hover {
-      color: var(--accent-color);
-    }
   }
 `;

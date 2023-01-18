@@ -6,17 +6,13 @@ export const Container = styled.nav`
   flex-direction: row;
 
   justify-content: space-between;
+  align-items: center;
   padding: 0 32px;
   height: 5rem;
 
-  .image {
-    position: relative;
-    width: 200px;
-    min-width: 200px;
-
-    img {
-      object-fit: contain;
-    }
+  img {
+    max-width: 250px;
+    height: auto;
   }
 
   .menu-button {
@@ -79,7 +75,11 @@ export const Nav = styled.nav<INavProps>`
   a {
     text-decoration: none;
     color: var(--heading-color);
-    font-size: 14px;
+    font-size: 16px;
+
+    &:hover {
+      color: var(--accent-color);
+    }
   }
 
   @media (max-width: 720px) {
@@ -87,7 +87,9 @@ export const Nav = styled.nav<INavProps>`
 
     height: 100vh;
     width: 70vw;
+    top: 0;
     left: 0;
+    bottom: 0;
     position: absolute;
     background-color: white;
 
@@ -101,6 +103,12 @@ export const Nav = styled.nav<INavProps>`
 
     li {
       justify-content: flex-start;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--heading-color);
+      font-size: 18px;
     }
 
     .close-button {

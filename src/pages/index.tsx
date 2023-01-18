@@ -9,7 +9,6 @@ import {
   Background,
   Competences,
   Feedbacks,
-  Hero,
   Main,
   Report,
   Separator,
@@ -31,14 +30,12 @@ export default function Home() {
           </p>
           <Button>Quero um orçamento</Button>
         </About>
-        <Hero>
-          <Image
-            src="/paineis.jpg"
-            alt="Paineis solares espalhados enfileirados em um campo"
-            width={803}
-            height={536}
-          />
-        </Hero>
+        <Image
+          src="/paineis.jpg"
+          alt="Paineis solares espalhados enfileirados em um campo"
+          width={803}
+          height={536}
+        />
       </header>
       <Separator>
         <h2>

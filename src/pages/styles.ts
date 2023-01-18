@@ -15,25 +15,23 @@ export const Main = styled.main`
     max-width: 1200px;
     margin: 0 auto;
 
+    align-items: center;
+
     padding: 32px;
+
+    img {
+      object-fit: contain;
+      max-width: 100%;
+      border-radius: 32px 8px 32px 8px;
+      height: auto;
+      box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.3);
+    }
 
     @media (max-width: 720px) {
       display: flex;
       flex-direction: column-reverse;
       height: auto;
     }
-  }
-`;
-
-export const Hero = styled.div`
-  display: flex;
-  justify-content: center;
-
-  img {
-    object-fit: cover;
-    width: 90%;
-    border-radius: 16px;
-    height: auto;
   }
 `;
 
@@ -66,7 +64,7 @@ export const About = styled.div`
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 900;
     color: var(--heading-color);
   }
